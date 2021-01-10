@@ -1,0 +1,33 @@
+h1,
+h2 {
+  color: red;
+}
+
+ul li li {
+  color: red;
+}
+
+p > strong,
+em {
+  color: red;
+}
+
+td ~ td {
+  color: red;
+}
+
+a:visited {
+  color: blue;
+}
+a:hover {
+  background-color: yellow;
+}
+a:link {
+  color: red;
+}
+a:focus {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}

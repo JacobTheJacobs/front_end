@@ -1,0 +1,78 @@
+/*container*/
+.container {
+  display: block;
+  width: 60%;
+  max-width: 900px; /* limited width*/
+  margin: 2rem auto;
+}
+/*header*/
+header {
+  background-color: #36b8eb;
+  padding: 0.1em 2em; /* give the height*/
+}
+
+/*a single-line comment */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+/*section A*/
+.section-one {
+  background-color: rgb(0, 0, 0);
+  padding: 2em 2em; /* give the height*/
+  color: white;
+}
+/*section B*/
+.section-two {
+  background-color: lightgrey;
+  padding: 1.9em 2em; /* give the height*/
+}
+
+/*Link Hover A*/
+.section-one a {
+  color: #36b8eb;
+}
+
+.section-one a:hover {
+  color: white;
+}
+
+/*Link Hover B*/
+.section-two a {
+  color: black;
+}
+
+.section-two a:hover {
+  color: white;
+}
+
+/*section one & two buttons common styles*/
+.section-one .btn,
+.section-two .btn {
+  padding: 0.9em 1.6em;
+  border: 5px solid black; /* give margins*/
+  color: black;
+  text-decoration: none;
+  background-color: #36b8eb;
+  display: inline-block; /* stack on on each other*/
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* Button Hover A*/
+.section-one .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* sepereat section two for custom button*/
+.section-two .btn {
+  color: white;
+  border: 5px solid lightgrey;
+  background-color: black;
+}
+/* Button Hover B*/
+.section-two .btn:hover {
+  background-color: #36b8eb;
+}

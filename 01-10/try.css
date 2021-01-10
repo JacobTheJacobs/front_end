@@ -1,0 +1,117 @@
+/* #region general */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+/* #endregion general */
+
+/* #region typography */
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: arial, helvetica, sans-serif;
+
+  /* variables for common colors */
+  --h-color: #104c90;
+  --a-color: #ff8000;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", helvetica, sans-serif;
+  color: var(--h-color);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.7em 0; /* normalize defines margin on h1 */
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin-bottom: 0.7em;
+  margin-top: 0;
+}
+/* #endregion typography */
+
+/* #region layout */
+
+.container {
+  width: 60%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main.container {
+  margin-bottom: 5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 3rem 4rem;
+}
+
+img {
+  /* replaced element */
+  display: block;
+  max-width: 100%;
+}
+/* #endregion layout */
+
+/* #region article */
+
+article + article {
+  margin-top: 7rem;
+}
+
+/* links */
+a {
+  color: var(--a-color);
+}
+
+a:focus {
+  outline: none;
+}
+a:focus,
+a:hover {
+  color: var(--h-color);
+}
+
+/* button link */
+
+.btn {
+  display: inline-block;
+  background-color: var(--h-color);
+  padding: 0.7em 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:focus,
+.btn:hover {
+  opacity: 0.7;
+  color: var(--a-color);
+}
+
+/* #endregion article */
+
+/* #region footer */
+
+footer {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 1.5em 0;
+}
+/* #endregion footer */
+
+/* #region media */
+
+/* #endregion media */

@@ -1,0 +1,15 @@
+h2 {
+  color: grey;
+}
+
+#special-h2 {
+  background-color: yellow;
+}
+
+article > p > span {
+  background-color: green;
+}
+
+section > p > span {
+  background-color: blue;
+}
