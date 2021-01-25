@@ -1,0 +1,65 @@
+/* #region layout */
+section div {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 10rem;
+}
+
+figure {
+  float: right;
+  font-size: 1rem;
+  caption-side: bottom;
+}
+
+h2 {
+  margin: 3rem 0;
+  text-align: center;
+}
+/* #endregion layout */
+
+/* #region images */
+.regular-img {
+  width: 25%;
+  height: auto;
+  float: left;
+  margin: 1rem 2rem 2rem 0;
+}
+
+.martin-logo {
+  width: 30%;
+  margin: 3rem;
+}
+
+.martin-logo img,
+#martin-veld img {
+  width: 100%;
+  height: auto;
+}
+
+#martin-veld {
+  width: 40%;
+}
+
+.about-menu {
+  text-align: left;
+}
+/* #endregion images */
+
+/* #region links */
+a {
+  text-decoration: none;
+  color: rgb(129, 8, 8);
+}
+
+.about-menu a {
+  color: black;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+/* #endregion links */

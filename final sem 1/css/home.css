@@ -1,0 +1,76 @@
+/* #region layout */
+
+/* homepage top picture, maximum width set to 1920px  */
+.home-top-bg {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+figure {
+  width: 100%;
+  margin: 0 auto;
+  width: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  width: fit-content;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+iframe {
+  display: block;
+  border: 0px;
+  width: 100%;
+}
+
+h2 {
+  margin: 10rem 0;
+  word-spacing: 1.5rem;
+}
+
+/* #endregion layout */
+
+/* #region top singles */
+.top-singles {
+  display: block;
+  width: 50%;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+/* #endregion top singles */
+
+/* #region upcoming festivals */
+.upcoming-festivals {
+  display: inline-block;
+  text-align: center;
+  width: 45%;
+  min-width: 300px;
+  margin: 2rem;
+  box-shadow: 5px 5px 12px gray;
+}
+
+.upcoming-festivals a,
+.upcoming-festivals img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 300px;
+}
+
+.upcoming-festivals a:hover {
+  transition: 0.3s;
+  opacity: 0.7;
+}
+/* #endregion upcoming festivals */

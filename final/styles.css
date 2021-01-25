@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; /* לא חובה */
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  background-color: purple;
+}
+
+.main-container {
+  height: auto;
+  width: 70%;
+  border: 9px solid black;
+  margin: 2em auto;
+  border-radius: 10px;
+  background: url("pattern.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+figure > img {
+  display: block;
+  width: 50%;
+  padding: auto;
+  border-radius: 50%;
+  /* horizontal centering */
+  margin: 0 auto;
+  text-align: center;
+  /* padding is related to the container font-size */
+  padding: 3em 0;
+}
+
+figure > figcaption {
+  /* horizontal centering */
+  margin: 0 3em 0em 3em;
+  text-align: center;
+  /* padding is related to the container font-size */
+  font-size: 5em;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+p {
+  /* horizontal centering */
+  margin: 0 3em 0em 3em;
+  text-align: center;
+  /* padding is related to the container font-size */
+  font-size: 5em;
+  text-transform: uppercase;
+}
+
+figure:hover figcaption {
+  visibility: visible;
+  display: none;
+}
+
+figure:hover img {
+  opacity: 0.2;
+  opacity: 1;
+}
+figure:hover ~ p {
+  opacity: 0.2;
+}

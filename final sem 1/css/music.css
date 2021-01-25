@@ -1,0 +1,24 @@
+/* #region layout */
+body {
+  background-color: black;
+  color: white;
+  --shadow-color: rgba(177, 26, 26, 0.76);
+}
+
+main .container {
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+  box-shadow: 5px 5px 100px var(--shadow-color),
+    -5px -5px 100px var(--shadow-color);
+  background-color: white;
+  border-radius: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  border: none;
+  display: block;
+  border-radius: 20px;
+}
+/* #endregion layout */

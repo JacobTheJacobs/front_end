@@ -1,0 +1,45 @@
+/* #region layout */
+
+h2 {
+  margin-top: 10rem;
+}
+
+/* #endregion layout */
+
+/* #region table */
+table {
+  display: block;
+  background-color: white;
+  outline: 1px solid black;
+  width: fit-content;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+th,
+td,
+tr {
+  font-size: 2rem;
+  border: 1px solid black;
+  text-align: center;
+  padding: 0.5em;
+}
+
+th {
+  background-color: black;
+  color: white;
+  width: fit-content;
+}
+
+/* change font-size for th, td,tr elements 
+when screen width is less than 900px */
+@media screen and (max-width: 900px) {
+  th,
+  td,
+  tr {
+    font-size: 1.5rem;
+  }
+}
+
+/* #endregion table */
