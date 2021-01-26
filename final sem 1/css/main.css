@@ -58,18 +58,14 @@ footer {
 /* #endregion layout */
 
 /* CHANGES TO THE FOOTER */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
   /* hide main top site navigation */
   footer {
     background-color: black;
     width: 100%;
     position: fixed;
     bottom: 0;
-    height: 150px;
-  }
-
-  .footer-nav li {
-    display: block;
+    height: 140px;
   }
 
   .footer-nav li a {
@@ -81,11 +77,9 @@ footer {
   }
 
   .copyright {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   ul {
-    display: block;
-    list-style-type: disc;
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;

@@ -5,8 +5,15 @@
   display: block;
   width: 100%;
   height: auto;
-  min-width: 300px;
+  min-width: 355px;
   margin: 0 auto;
+}
+
+.home-top-bg img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 300px;
 }
 
 figure {
