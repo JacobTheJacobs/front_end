@@ -1,0 +1,61 @@
+/* #region layout */
+.showcase {
+  width: 90%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.text {
+  width: 80%;
+  margin: 10rem auto;
+}
+
+.gallery-container {
+  width: 80%;
+  max-width: 1920px;
+  margin: 10rem auto;
+
+  /* creates 2 columns, each column's minimum width is 35rem
+     gap between the columns is 0.5rem, on small screens 
+     the 2 columns will join into one */
+  columns: 2;
+  column-width: 35rem;
+  column-gap: 0.5rem;
+}
+
+figure {
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+  line-height: 0;
+  
+  /* play show-up animation, duration is 4 seconds */
+  animation-name: show-up;
+  animation-duration: 4s;
+
+  /* change grayscale to 100% in 2 seconds */
+  transition: 2s;
+  filter: grayscale(100%);
+}
+
+/* on hover change grayscale to 0% in 2 seconds*/
+figure:hover {
+  transition: 2s;
+  filter: grayscale(0%);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* on load gallery animation */
+@keyframes show-up {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* #endregion layout */

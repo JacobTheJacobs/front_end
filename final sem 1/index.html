@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
 
     <!-- main stylesheet (for all html files) -->
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" id="theme"/>
 
     <!-- home stylesheet (for index.html) -->
     <link rel="stylesheet" href="./css/home.css" />
@@ -23,7 +23,7 @@
     <link rel="icon" href="./images/favicon/favicon.png" />
 
     <!-- js to toggle the navigation menu on small screens -->
-    <script src="./js/menu-toggle.js"></script>
+
 
     <title>Martin Garrix</title>
   </head>
@@ -41,6 +41,7 @@
         </a>
 
         <div class="site-nav">
+          <button id="switchTheme" class="theme-button">Switch</button>
           <a href="./index.html">HOME</a>
           <a href="./gallery.html">GALLERY</a>
           <a href="./awards-nominations.html">AWARDS</a>
@@ -82,6 +83,7 @@
           Martin Garrix - Kingsland Festival Amsterdam 2017
         </figcaption>
       </figure>
+      
     </header>
 
     <main>
@@ -89,24 +91,7 @@
       <section class="container">
         <h2>UPCOMING FESTIVALS</h2>
 
-        <!-- escapade festival -->
-        <div class="upcoming-festivals">
-          <a
-            href="https://www.festicket.com/festivals/escapade-music-festival/"
-            target="_blank"
-          >
-            <img
-              src="./images/upcoming-festivals-bg/escapade.jpg"
-              alt=""
-              width="1332"
-              height="761"
-            />
-          </a>
-
-          <h3>Escapade Music Festival 2021</h3>
-          <p>Lansdowne Park, Ottawa, Canada</p>
-          <p>18-20 June 2021</p>
-        </div>
+        
 
         <!-- hurricane festival -->
         <div class="upcoming-festivals">
@@ -281,5 +266,6 @@
         <p class="copyright">Copyright &copy; 2021 Martin Garrix</p>
       </div>
     </footer>
+    <script src="./js/menu-toggle.js"></script>
   </body>
 </html>

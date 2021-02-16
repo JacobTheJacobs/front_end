@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- stylesheet for the social media logos at the bottom -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- stylesheet to make the website look the same on all browsers -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <!-- main stylesheet (for all html files) -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- gallery stylesheet (for gallery.html) -->
+    <link rel="stylesheet" href="./css/gallery.css" />
+
+    <!-- tab icon  -->
+    <link rel="icon" href="./images/favicon/favicon.png" />
+
+    <title>Gallery</title>
+  </head>
+  <body>
+    <!-- website's top navigation bar -->
+    <nav>
+      <div class="nav-bar container">
+        <a class="logo" href="./index.html">
+          <img
+            src="./images/nav-bar/martin-garrix-logo-1.png"
+            alt="Martin Garrix"
+            width="331"
+            height="30"
+          />
+        </a>
+
+        <div class="site-nav">
+          <a href="./index.html">HOME</a>
+          <a href="./gallery.html">GALLERY</a>
+          <a href="./awards-nominations.html">AWARDS</a>
+          <a href="./music.html">MUSIC</a>
+          <a href="./about.html">ABOUT</a>
+        </div>
+
+        <!-- hamburger button to toggle the navigation menu on/off for small screens -->
+        <div id="nav-burger" onclick="toggleDisplay()">
+          <img
+            src="./images/nav-bar/white-hamburger.jpg"
+            alt="menu"
+            width="512"
+            height="512"
+          />
+        </div>
+
+        <!-- navigation menu for small screens -->
+        <div id="drop-menu">
+          <a href="./index.html">HOME</a>
+          <a href="./gallery.html">GALLERY</a>
+          <a href="./awards-nominations.html">AWARDS</a>
+          <a href="./music.html">MUSIC</a>
+          <a href="./about.html">ABOUT</a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <h1>GALLERY</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="showcase">
+        <div class="text">
+          <h2>Martin Garrix</h2>
+          <h3>
+            professionally known as Martin Garrix and under other pseudonyms
+            such as Ytram and GRX, is a Dutch DJ and record producer. His most
+            known singles are "Animals", "In the Name of Love", and "Scared to
+            Be Lonely". He was ranked number one on DJ Mag's Top 100 DJs list
+            for three consecutive years (2016, 2017, and 2018).
+          </h3>
+        </div>
+
+        <div class="gallery-container">
+          <figure>
+            <img
+              src="./images/gallery/martin-2.jpg"
+              alt="picture"
+              width="1080"
+              height="608"
+            />
+          </figure>
+          <figure>
+            <img
+              src="./images/gallery/martin-3.jpg"
+              alt="picture"
+              width="2000"
+              height="1471"
+            />
+          </figure>
+          <figure>
+            <img
+              src="./images/gallery/martin-4.jpg"
+              alt="picture"
+              width="612"
+              height="407"
+            />
+          </figure>
+          <figure>
+            <img
+              src="./images/gallery/martin-5.jpg"
+              alt="picture"
+              width="612"
+              height="409"
+            />
+          </figure>
+
+          <figure>
+            <img
+              src="./images/gallery/martin-6.jpg"
+              alt=" picture"
+              width="512"
+              height="350"
+            />
+          </figure>
+
+          <figure>
+            <img
+              src="./images/gallery/martin-7.jpg"
+              alt="picture"
+              width="612"
+              height="407"
+            />
+          </figure>
+
+          <figure>
+            <img
+              src="./images/gallery/martin-8.jpg"
+              alt="picture"
+              width="750"
+              height="500"
+            />
+          </figure>
+
+          <figure>
+            <img
+              src="./images/gallery/martin-9.jpg"
+              alt="picture"
+              width="700"
+              height="466"
+            />
+          </figure>
+          <figure>
+            <img
+              src="./images/gallery/martin-10.jpg"
+              alt="picture"
+              width="900"
+              height="600"
+            />
+          </figure>
+          <figure>
+            <img
+              src="./images/gallery/martin-11.jpg"
+              alt="picture"
+              width="751"
+              height="500"
+            />
+          </figure>
+          <figure>
+            <img
+              src="./images/gallery/martin-12.jpg"
+              alt="picture"
+              width="900"
+              height="600"
+            />
+          </figure>
+          <figure>
+            <img
+              src="./images/gallery/martin-13.jpg"
+              alt="picture"
+              width="600"
+              height="338"
+            />
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <!-- website's bottom navigation -->
+    <footer>
+      <div class="container">
+        <ul class="footer-nav">
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./gallery.html">GALLERY</a></li>
+          <li><a href="./awards-nominations.html">AWARDS</a></li>
+          <li><a href="./music.html">MUSIC</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+        </ul>
+
+        <!-- social media links -->
+        <ul class="social-media-nav">
+          <li>
+            <!-- facebook -->
+            <a
+              class="fa fa-facebook"
+              href="https://www.facebook.com/martin.garrix/"
+              target="_blank"
+            ></a>
+          </li>
+          <li>
+            <!-- instagram -->
+            <a
+              class="fa fa-instagram"
+              href="https://www.instagram.com/martingarrix/"
+              target="_blank"
+            ></a>
+          </li>
+          <li>
+            <!-- youtube -->
+            <a
+              class="fa fa-youtube"
+              href="https://www.youtube.com/user/MartinGarrix"
+              target="_blank"
+            ></a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          Copyright &copy; <span id="year"></span> Martin Garrix
+        </p>
+      </div>
+    </footer>
+    <!-- js to toggle the navigation menu on small screens -->
+    <script src="./js/menu-toggle.js"></script>
+  </body>
+</html>

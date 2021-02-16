@@ -14,12 +14,18 @@ body {
   font-size: 2rem;
   background-color: snow;
 }
+
+.theme-button {
+  margin-top: 0.5em;
+  border-radius: 50%;
+  background-color: purple;
+}
 /* #endregion general */
 
 /* #region layout */
 
 header {
-  margin-top: 5rem;
+  margin-top: 4.5rem;
 }
 
 section {

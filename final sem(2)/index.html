@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- stylesheet for the social media logos at the bottom -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- stylesheet to make the website look the same on all browsers -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <!-- main stylesheet (for all html files) -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- home stylesheet (for index.html) -->
+    <link rel="stylesheet" href="./css/home.css" />
+
+    <!-- tab icon  -->
+    <link rel="icon" href="./images/favicon/favicon.png" />
+
+    <!-- js to toggle the navigation menu on small screens -->
+    <script src="./js/menu-toggle.js"></script>
+
+    <title>Martin Garrix</title>
+  </head>
+  <body>
+    <!-- website's top navigation bar -->
+    <nav>
+      <div class="nav-bar container">
+        <a class="logo" href="./index.html">
+          <img
+            src="./images/nav-bar/martin-garrix-logo-1.png"
+            alt="Martin Garrix"
+            width="331"
+            height="30"
+          />
+        </a>
+
+        <div class="site-nav">
+          <a href="./index.html">HOME</a>
+          <a href="./gallery.html">GALLERY</a>
+          <a href="./awards-nominations.html">AWARDS</a>
+          <a href="./music.html">MUSIC</a>
+          <a href="./about.html">ABOUT</a>
+        </div>
+
+        <!-- hamburger button to toggle the navigation menu on/off for small screens -->
+        <div id="nav-burger" onclick="toggleDisplay()">
+          <img
+            src="./images/nav-bar/white-hamburger.jpg"
+            alt="menu"
+            width="512"
+            height="512"
+          />
+        </div>
+
+        <!-- navigation menu for small screens -->
+        <div id="drop-menu">
+          <a href="./index.html">HOME</a>
+          <a href="./gallery.html">GALLERY</a>
+          <a href="./awards-nominations.html">AWARDS</a>
+          <a href="./music.html">MUSIC</a>
+          <a href="./about.html">ABOUT</a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <!-- homepage top background image -->
+      <figure class="home-top-bg">
+        <img
+          src="./images/bg/martin-garrix-on-stage-1.jpg"
+          alt=""
+          width="3500"
+          height="1251"
+        />
+        <figcaption>
+          Martin Garrix - Kingsland Festival Amsterdam 2017
+        </figcaption>
+      </figure>
+    </header>
+
+    <main>
+      <!-- upcoming festivals  -->
+      <section class="container">
+        <h2>UPCOMING FESTIVALS</h2>
+
+        <!-- escapade festival -->
+        <div class="upcoming-festivals">
+          <a
+            href="https://www.festicket.com/festivals/escapade-music-festival/"
+            target="_blank"
+          >
+            <img
+              src="./images/upcoming-festivals-bg/escapade.jpg"
+              alt=""
+              width="1332"
+              height="761"
+            />
+          </a>
+
+          <h3>Escapade Music Festival 2021</h3>
+          <p>Lansdowne Park, Ottawa, Canada</p>
+          <p>18-20 June 2021</p>
+        </div>
+
+        <!-- hurricane festival -->
+        <div class="upcoming-festivals">
+          <a
+            href="https://www.festicket.com/festivals/hurricane-festival/"
+            target="_blank"
+          >
+            <img
+              src="./images/upcoming-festivals-bg/hurricane.jpg"
+              alt=""
+              width="1332"
+              height="761"
+            />
+          </a>
+
+          <h3>Hurricane Festival 2021</h3>
+          <p>Scheeßel, Germany</p>
+          <p>18-20 June 2021</p>
+        </div>
+
+        <!-- southside festival -->
+        <div class="upcoming-festivals">
+          <a
+            href="https://www.festicket.com/festivals/southside-festival/"
+            target="_blank"
+          >
+            <img
+              src="./images/upcoming-festivals-bg/southside2.jpg"
+              alt=""
+              width="1332"
+              height="761"
+            />
+          </a>
+
+          <h3>Southside Festival 2021</h3>
+          <p>Neuhausen ob Eck, Germany</p>
+          <p>18-20 June 2021</p>
+        </div>
+
+        <!-- garorock festival -->
+        <div class="upcoming-festivals">
+          <a
+            href="https://www.festicket.com/festivals/garorock/"
+            target="_blank"
+          >
+            <img
+              src="./images/upcoming-festivals-bg/garorock.jpg"
+              alt=""
+              width="1332"
+              height="761"
+            />
+          </a>
+
+          <h3>Festival Garorock 2021</h3>
+          <p>Plaine de la filhole, Marmande, France</p>
+          <p>23-27 June 2021</p>
+        </div>
+
+        <!-- colours of ostrava festival -->
+        <div class="upcoming-festivals">
+          <a
+            href="https://www.festicket.com/festivals/colours-of-ostrava/"
+            target="_blank"
+          >
+            <img
+              src="./images/upcoming-festivals-bg/colours-of-ostrava.jpg"
+              alt=""
+              width="1332"
+              height="761"
+            />
+          </a>
+
+          <h3>Colours of Ostrava 2021</h3>
+          <p>Dolní Vítkovice, Ostrava, Czechia</p>
+          <p>14-17 July 2021</p>
+        </div>
+
+        <!-- galp beach party festival -->
+        <div class="upcoming-festivals">
+          <a
+            href="https://www.festicket.com/festivals/galp-beach-party/"
+            target="_blank"
+          >
+            <img
+              src="./images/upcoming-festivals-bg/galp-beach.jpg"
+              alt=""
+              width="1332"
+              height="761"
+            />
+          </a>
+
+          <h3>Galp Beach Party 2021</h3>
+          <p>Praia do Aterro Norte, Matosinhos, Portugal</p>
+          <p>25-26 June 2021</p>
+        </div>
+      </section>
+
+      <!-- top 3 singles by Martin Garrix -->
+      <section class="container">
+        <h2>TOP SINGLES</h2>
+
+        <div class="top-singles">
+          <!-- animals -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/IPYTxAHeR_o"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <!-- in the name of love -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/RnBT9uUYb1w"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <!-- scared to be lonely -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/e2vBLd5Egnk"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- website's bottom navigation -->
+    <footer>
+      <div class="container">
+        <ul class="footer-nav">
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./gallery.html">GALLERY</a></li>
+          <li><a href="./awards-nominations.html">AWARDS</a></li>
+          <li><a href="./music.html">MUSIC</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+        </ul>
+
+        <!-- social media links -->
+        <ul class="social-media-nav">
+          <li>
+            <!-- facebook -->
+            <a
+              class="fa fa-facebook"
+              href="https://www.facebook.com/martin.garrix/"
+              target="_blank"
+            ></a>
+          </li>
+          <li>
+            <!-- instagram -->
+            <a
+              class="fa fa-instagram"
+              href="https://www.instagram.com/martingarrix/"
+              target="_blank"
+            ></a>
+          </li>
+          <li>
+            <!-- youtube -->
+            <a
+              class="fa fa-youtube"
+              href="https://www.youtube.com/user/MartinGarrix"
+              target="_blank"
+            ></a>
+          </li>
+        </ul>
+
+        <p class="copyright">Copyright &copy; 2021 Martin Garrix</p>
+      </div>
+    </footer>
+  </body>
+</html>

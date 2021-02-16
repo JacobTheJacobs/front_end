@@ -46,7 +46,6 @@
   width: 50%;
   justify-content: center;
   align-self: flex-end;
-  --stagger-delay: 100ms;
   animation: cardEntrance 2s ease-in;
 }
 
@@ -66,7 +65,6 @@ figure > img {
 }
 .gallery-container > figure:hover {
   transform: scale(1.5);
-  z-index: 999;
 }
 
 @media screen and (max-width: 300px) {

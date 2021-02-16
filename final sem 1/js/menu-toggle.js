@@ -15,4 +15,16 @@ function getDate() {
   console.log(date);
 }
 
-getDate();
+let switchTheme = document.getElementById("switchTheme");
+
+switchTheme.onclick = function () {
+  let theme = document.getElementById("theme");
+
+  if (theme.getAttribute("href") == "/css/main.css") {
+    theme.href = "/css/main-black.css";
+    console.log("black");
+  } else {
+    theme.href = "/css/main.css";
+    console.log("white");
+  }
+};
